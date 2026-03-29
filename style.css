@@ -1,0 +1,159 @@
+:root {
+    --primary-font: "Funnel Display";
+}
+
+html,
+body {
+    background-color: #e3f2fd;
+    color: white;
+    margin:0;
+}
+
+.space {
+    padding: 50px;
+}
+
+.header {
+    padding: 20px;
+    margin-bottom: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.header h1 {
+    margin: 20px;
+    padding: 10px;
+    color: black;
+    font-family: var(--primary-font);
+    font-size: 80px;
+}
+
+.header img{
+    border-radius: 10px;
+    width: 40%;
+}
+
+.book-button {
+    padding: 12px 24px;
+    margin: 30px;
+    font-size: 16px;
+    font-family: var(--primary-font);
+    border: none;
+    border-radius: 8px;
+    background-color: #0826e8; 
+    color: white;
+    cursor: pointer; 
+}
+
+
+.heading {
+    font-family: var(--primary-font);
+}
+
+.navclass {
+    background-color: #1e96fc;
+    display: flex;
+    justify-content: space-between; /* pushes items to edges */
+    align-items: center;
+    gap: 0px;
+    font-size: 20px;
+    
+    
+}
+
+.navbar {
+    font-family: var(--primary-font);
+    padding: 20px;
+    
+}
+
+.word-logo {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(248, 249, 250);
+  font-size: 30px;
+  padding-right: 650px;
+  margin-left: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+a:hover{
+    color: rgb(0, 12, 11);
+    cursor: pointer;
+}
+
+.about-event {
+    font-family: var(--primary-font);
+    color: black;
+    padding: 30px;
+    font-size: 30px;
+    background-color: white;
+}
+
+.event-details {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+    padding-bottom: 150px;
+    background-color: white;
+}
+
+.event-details p {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    border: 2px solid rgb(194, 233, 251);
+    padding: 50px;
+    margin: 10px;
+    font-family: var(--primary-font);
+    font-size: 23px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-headline {
+    text-align: center;
+    font-family: var(--primary-font);
+    color: black;
+    font-size: 55px;
+}
+
+.event-schedule {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.schedule-img {
+    width: 100%;           /* full width of card */
+    height: 200px;          /* fixed height */
+    object-fit: cover;      /* crop/scale image to fill container */
+    border-radius: 20px;   /* ensures images don’t stretch oddly */
+}
+
+.schedule-card {
+    background-color: rgba(30, 124, 239, 0.815);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+    font-family: var(--primary-font);
+    font-size: 20px;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.148);
+}
+
+.block {
+    background-color: darkblue;
+}
+
+
