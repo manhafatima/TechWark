@@ -54,7 +54,7 @@ body {
 .navclass {
     background-color: #1e96fc;
     display: flex;
-    justify-content: space-between; /* pushes items to edges */
+    justify-content: space-between; 
     align-items: center;
     gap: 0px;
     font-size: 20px;
@@ -134,10 +134,10 @@ a:hover{
 }
 
 .schedule-img {
-    width: 100%;           /* full width of card */
-    height: 200px;          /* fixed height */
-    object-fit: cover;      /* crop/scale image to fill container */
-    border-radius: 20px;   /* ensures images don’t stretch oddly */
+    width: 100%;          
+    height: 200px;        
+    object-fit: cover;     
+    border-radius: 20px;   
 }
 
 .schedule-card {
